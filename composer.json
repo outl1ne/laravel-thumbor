@@ -1,0 +1,35 @@
+{
+  "name": "optimistdigital/laravel-thumbor",
+  "description": "This Laravel package is a wrapper around 99designs/phumbor package which generates Thumbor URLs.",
+  "keywords": [
+    "laravel",
+    "thumbor",
+    "optimistdigital"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "99designs/phumbor": "^1.2",
+    "laravel/framework": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OptimistDigital\\LaravelThumbor\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OptimistDigital\\LaravelThumbor\\ServiceProvider"
+      ],
+      "aliases": {
+        "Thumbor": "OptimistDigital\\LaravelThumbor\\Facade"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
