@@ -27,10 +27,10 @@ Install the package in a Laravel Nova project via Composer and run migrations:
 composer require optimistdigital/laravel-thumbor
 ```
 
-(Optional) Publish the `laravel-thumbor` configuration file and edit it to your preference:
+(Optional) Publish the configuration file and edit it to your preference:
 
 ```
-php artisan vendor:publish --provider="OptimistDigital\LaravelThumbor\ToolServiceProvider" --tag="config"
+php artisan vendor:publish --provider="OptimistDigital\LaravelThumbor\ServiceProvider" --tag="config"
 ```
 
 ## Credits
