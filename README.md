@@ -1,7 +1,7 @@
 # Laravel Thumbor url helper
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/optimistdigital/nova-page-manager.svg?style=flat-square)](https://packagist.org/packages/optimistdigital/nova-page-manager)
-[![Total Downloads](https://img.shields.io/packagist/dt/optimistdigital/nova-page-manager.svg?style=flat-square)](https://packagist.org/packages/optimistdigital/nova-page-manager)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/optimistdigital/laravel-thumbor.svg?style=flat-square)](https://packagist.org/packages/optimistdigital/laravel-thumbor)
+[![Total Downloads](https://img.shields.io/packagist/dt/optimistdigital/laravel-thumbor.svg?style=flat-square)](https://packagist.org/packages/optimistdigital/laravel-thumbor)
 
 This [Laravel](https://laravel.com) package is a wrapper around [99designs/phumbor](https://github.com/99designs/phumbor) package which generates [Thumbor](https://thumbor.readthedocs.io/) URLs.
 
