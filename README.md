@@ -36,7 +36,7 @@ php artisan vendor:publish --provider="OptimistDigital\LaravelThumbor\ServicePro
 ## Credits
 
 - [Allan Tatter](https://github.com/allantatter)
-- [Kaaren Õun](https://github.com/kaareloun)
+- [Kaarel Õun](https://github.com/kaareloun)
 
 ## License
 
