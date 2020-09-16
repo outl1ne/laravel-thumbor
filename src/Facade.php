@@ -3,11 +3,12 @@
 namespace OptimistDigital\LaravelThumbor;
 
 use OptimistDigital\LaravelThumbor\Mocked\Url\BuilderFactory as FakeBuilderFactory;
-use Thumbor\Url\BuilderFactory;
+use OptimistDigital\LaravelThumbor\Url\BuilderFactory;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
-    protected static function getFacadeAccessor() {
+    protected static function getFacadeAccessor()
+    {
         $url = config('thumbor.url');
         $key = config('thumbor.key');
 
