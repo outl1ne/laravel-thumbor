@@ -9,7 +9,6 @@
   "license": "MIT",
   "require": {
     "php": ">=7.1.0",
-    "99designs/phumbor": "^1.2",
     "laravel/framework": "^6.0 || ^7.0"
   },
   "autoload": {
