@@ -2,11 +2,11 @@
 
 namespace OptimistDigital\LaravelThumbor\Url;
 
-use OptimistDigital\LaravelThumbor\Url;
+use Exception;
 use Illuminate\Support\Str;
 
 
-use Exception;
+use OptimistDigital\LaravelThumbor\Url;
 
 /**
  * A Builder for incrementally constructing Url objects.
@@ -43,11 +43,8 @@ class Builder
     private $server;
     private $secret;
     private $original;
-    private $commands;
-
-    private static $whitelistedFiletypes = [
-        "webp", "jpeg", "jpg", "gif", "png"
-    ];
+    protected $commands;
+    protected static $whitelistedFiletypes = ["webp", "jpeg", "jpg", "gif", "png"];
 
     public static function construct($server, $secret, $original)
     {
