@@ -18,11 +18,6 @@ class Builder
         $this->original = $original;
     }
 
-    public function __clone()
-    {
-        $this->commands = clone $this->commands;
-    }
-
     public function __call($method, $args)
     {
         return $this;
