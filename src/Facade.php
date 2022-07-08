@@ -1,9 +1,9 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor;
+namespace Outl1ne\LaravelThumbor;
 
-use OptimistDigital\LaravelThumbor\Mocked\Url\BuilderFactory as FakeBuilderFactory;
-use OptimistDigital\LaravelThumbor\Url\BuilderFactory;
+use Outl1ne\LaravelThumbor\Url\BuilderFactory;
+use Outl1ne\LaravelThumbor\Mocked\Url\BuilderFactory as FakeBuilderFactory;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {

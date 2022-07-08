@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor\Url;
+namespace Outl1ne\LaravelThumbor\Url;
 
 /**
  * Produces URL builders for a given server/secret combination. Useful when the

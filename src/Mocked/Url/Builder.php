@@ -1,8 +1,8 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor\Mocked\Url;
+namespace Outl1ne\LaravelThumbor\Mocked\Url;
 
-use OptimistDigital\LaravelThumbor\Mocked\Url;
+use Outl1ne\LaravelThumbor\Mocked\Url;
 
 class Builder
 {

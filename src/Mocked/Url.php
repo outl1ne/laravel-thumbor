@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor\Mocked;
+namespace Outl1ne\LaravelThumbor\Mocked;
 
 class Url
 {

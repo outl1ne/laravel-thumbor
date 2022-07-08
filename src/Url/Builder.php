@@ -1,12 +1,12 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor\Url;
+namespace Outl1ne\LaravelThumbor\Url;
 
 use Exception;
 use Illuminate\Support\Str;
 
 
-use OptimistDigital\LaravelThumbor\Url;
+use Outl1ne\LaravelThumbor\Url;
 
 /**
  * A Builder for incrementally constructing Url objects.

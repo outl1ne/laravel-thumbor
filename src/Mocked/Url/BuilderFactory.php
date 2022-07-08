@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor\Mocked\Url;
+namespace Outl1ne\LaravelThumbor\Mocked\Url;
 
 class BuilderFactory
 {

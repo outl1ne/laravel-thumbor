@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor\Url;
+namespace Outl1ne\LaravelThumbor\Url;
 
 /**
  * A set of image manipulation commands, roughly mirroring the interface

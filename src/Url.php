@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\LaravelThumbor;
+namespace Outl1ne\LaravelThumbor;
 
 
 /**
